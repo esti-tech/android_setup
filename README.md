@@ -13,10 +13,13 @@ Download and install the latest stable version of **Android Studio**
 * Open Android Studio and select **New Project**.
 * Select the **Empty Activity** template. 
     * *Note: Do NOT select "Empty Views Activity"—we are using Jetpack Compose.*
+      <img width="894" height="608" alt="one" src="https://github.com/user-attachments/assets/dadad496-f6b6-4f24-9cdd-d6fd4bd48f4b" />
+
 * **Name:** `MyFirstApp`
 * **Package name:** `com.example.myfirstapp`
 * **Language:** Kotlin
 * **Build configuration language:** Kotlin DSL (`build.gradle.kts`)
+<img width="940" height="611" alt="two" src="https://github.com/user-attachments/assets/f397fc95-4663-4e1d-9391-1a95f2be022b" />
 
 ### 3. Modify the Code
 You need to personalize the app so we know it’s running your specific build.
