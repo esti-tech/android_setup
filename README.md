@@ -41,14 +41,44 @@ Greeting("Your Name Here")
 
 - Verify the app launches and displays: "Hello Your Name Here!"
 
-### Submission Requirements
-To successfully complete this lab, you must push two things to this repository:
 
-1. The Source Code: Commit and push your entire MyFirstApp project folder.
+###  Submission Requirements
 
-2. The Proof (Screenshot): * Take a screenshot of your entire desktop.
-   - The screenshot must show Android Studio open in the background AND the Emulator/Physical Device (via Screen Mirror you can use [screen copy](https://github.com/Genymobile/scrcpy/releases/tag/v3.3.4)) in the foreground showing your name.
-   - Save this image as setup_proof.png.
-   - Upload/Push setup_proof.png to the root of this repository.
+#### **Phase 1: Accept the Assignment**
 
-**Note**: Ensure you have a .gitignore file in your project so you don't upload the build/ folders!
+1. Accept the invitation link provided by your teacher.
+2. Once accepted, GitHub will create a **unique repository link** for you (e.g., `https://github.com/Debre-birhan-university/lab-0-setup-yourname`). **Copy this URL.**
+
+#### **Phase 2: Connect Android Studio to GitHub**
+
+1. **Enable Git:** Inside Android Studio, go to the top menu: **VCS > Enable Version Control Integration** (or **Git > Create Git Repository**). Select your project folder and click **OK**.
+2. **Add Remote:** * Go to **Git > Manage Remotes...**
+* Click the **+** (plus) icon.
+* Paste the **unique repository URL** you copied in Phase 1. Name it `origin`.
+
+
+3. **Commit:** * Go to the **Commit** tab on the left (or press `Ctrl+K`).
+* Check all files, write a message (e.g., "Initial Setup"), and click **Commit**.
+
+
+4. **Push:** * Go to **Git > Push...** (or press `Ctrl+Shift+K`).
+* If prompted, log in to your GitHub account to authorize Android Studio.
+
+
+
+#### **Phase 3: Final Deliverables**
+
+To successfully complete this lab, you must ensure your repository contains:
+
+1. **The Source Code:** Your entire `MyFirstApp` project folder (pushed via Git).
+2. **The Proof (Screenshot):** * Take a screenshot of your **entire desktop**.
+* The screenshot **must** show Android Studio open in the background AND the Emulator or Physical Device in the foreground.
+* **Tip:** If using a physical device, use [scrcpy](https://github.com/Genymobile/scrcpy/releases/tag/v3.3.4) to mirror your screen to your computer.
+* The app on the screen **must** show your name.
+* Save this image as `setup_proof.png`.
+* **Upload/Push** this image to the root of your repository.
+
+
+
+> [!IMPORTANT]
+> **Check your .gitignore:** Ensure your project has a `.gitignore` file so you do not upload the `build/` folders. If you see hundreds of files in your "Commit" tab, your `.gitignore` is missing!
